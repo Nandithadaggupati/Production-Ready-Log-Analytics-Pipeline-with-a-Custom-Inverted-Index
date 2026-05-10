@@ -1,0 +1,1 @@
+{"timestamp": "2026-05-10T12:10:13+00:00", "log_type": "nginx", "level": "ERROR", "service": "nginx", "message": "POST /products HTTP 500", "raw": "127.0.0.1 - - [10/May/2026:12:10:13 +0000] \"POST /products HTTP/1.1\" 500 851 \"-\" \"Mozilla/5.0\"", "id": "7401e0f9-07ba-49e5-89db-613a0411002f", "indexed_at": "2026-05-10T12:10:49.271357+00:00"}

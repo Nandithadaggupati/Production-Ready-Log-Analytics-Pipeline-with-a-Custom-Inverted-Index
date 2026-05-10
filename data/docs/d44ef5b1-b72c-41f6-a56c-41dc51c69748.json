@@ -1,0 +1,1 @@
+{"timestamp": "2026-05-10T12:08:44+00:00", "log_type": "nginx", "level": "INFO", "service": "nginx", "message": "GET /checkout HTTP 200", "raw": "127.0.0.1 - - [10/May/2026:12:08:44 +0000] \"GET /checkout HTTP/1.1\" 200 380 \"-\" \"Mozilla/5.0\"", "id": "d44ef5b1-b72c-41f6-a56c-41dc51c69748", "indexed_at": "2026-05-10T12:09:46.008064+00:00"}

@@ -1,0 +1,1 @@
+{"timestamp": "2026-05-10T12:09:52.216720+00:00", "log_type": "syslog", "level": "ERROR", "service": "kernel", "message": "Connection to DB failed", "raw": "<34>1 2026-05-10T12:09:52.216720+00:00 db-02 kernel - - - Connection to DB failed", "id": "beb71b19-3807-4ef1-abef-7b90bc9debdb", "indexed_at": "2026-05-10T12:10:25.924758+00:00"}

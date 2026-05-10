@@ -1,0 +1,1 @@
+{"timestamp": "2026-05-10T12:07:40.217429+00:00", "log_type": "syslog", "level": "ERROR", "service": "sshd", "message": "Out of memory: Killed process 123", "raw": "<34>1 2026-05-10T12:07:40.217429+00:00 web-01 sshd - - - Out of memory: Killed process 123", "id": "132dd99e-5556-432e-89b5-62ccfdc2a929", "indexed_at": "2026-05-10T12:09:09.272646+00:00"}

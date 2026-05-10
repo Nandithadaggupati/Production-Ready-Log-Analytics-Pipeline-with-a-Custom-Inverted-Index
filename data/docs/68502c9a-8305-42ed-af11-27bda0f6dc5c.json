@@ -1,0 +1,1 @@
+{"timestamp": "2026-05-10T12:07:33.424522+00:00", "log_type": "syslog", "level": "ERROR", "service": "cron", "message": "Connection to DB failed", "raw": "<34>1 2026-05-10T12:07:33.424522+00:00 web-01 cron - - - Connection to DB failed", "id": "68502c9a-8305-42ed-af11-27bda0f6dc5c", "indexed_at": "2026-05-10T12:08:44.132157+00:00"}

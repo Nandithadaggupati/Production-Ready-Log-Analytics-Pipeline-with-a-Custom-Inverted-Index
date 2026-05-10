@@ -1,0 +1,1 @@
+{"timestamp": "2026-05-10T12:09:52.047916+00:00", "log_type": "syslog", "level": "ERROR", "service": "sshd", "message": "Connection to DB failed", "raw": "<34>1 2026-05-10T12:09:52.047916+00:00 db-02 sshd - - - Connection to DB failed", "id": "21cfa577-d8cf-4822-8288-50643f9a18c4", "indexed_at": "2026-05-10T12:10:35.364318+00:00"}

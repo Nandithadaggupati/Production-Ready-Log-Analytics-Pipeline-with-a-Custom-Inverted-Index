@@ -1,0 +1,1 @@
+{"timestamp": "2026-05-10T12:09:07.458439+00:00", "log_type": "syslog", "level": "ERROR", "service": "kernel", "message": "Out of memory: Killed process 123", "raw": "<34>1 2026-05-10T12:09:07.458439+00:00 db-02 kernel - - - Out of memory: Killed process 123", "id": "49c73020-b39a-42c5-95a4-361acc443325", "indexed_at": "2026-05-10T12:10:08.946906+00:00"}

@@ -1,0 +1,1 @@
+{"timestamp": "2026-05-10T12:08:53.328157+00:00", "log_type": "syslog", "level": "INFO", "service": "sshd", "message": "Accepted publickey for root", "raw": "<34>1 2026-05-10T12:08:53.328157+00:00 db-02 sshd - - - Accepted publickey for root", "id": "6cc7a6bd-1c57-4f54-9a24-95f03a3c6234", "indexed_at": "2026-05-10T12:09:48.101813+00:00"}

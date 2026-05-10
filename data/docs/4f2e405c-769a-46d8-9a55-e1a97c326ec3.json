@@ -1,0 +1,1 @@
+{"timestamp": "2026-05-10T12:10:25.387474+00:00", "log_type": "syslog", "level": "INFO", "service": "kernel", "message": "Accepted publickey for root", "raw": "<34>1 2026-05-10T12:10:25.387474+00:00 cache-01 kernel - - - Accepted publickey for root", "id": "4f2e405c-769a-46d8-9a55-e1a97c326ec3", "indexed_at": "2026-05-10T12:11:05.035727+00:00"}

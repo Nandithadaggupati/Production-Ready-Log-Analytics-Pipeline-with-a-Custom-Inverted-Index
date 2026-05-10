@@ -1,0 +1,1 @@
+{"timestamp": "2026-05-10T12:10:52+00:00", "log_type": "nginx", "level": "INFO", "service": "nginx", "message": "POST /api/v2/users HTTP 200", "raw": "127.0.0.1 - - [10/May/2026:12:10:52 +0000] \"POST /api/v2/users HTTP/1.1\" 200 3629 \"-\" \"Mozilla/5.0\"", "id": "c33de645-7122-4ac7-9755-c9499b9fbb19", "indexed_at": "2026-05-10T12:11:25.022705+00:00"}

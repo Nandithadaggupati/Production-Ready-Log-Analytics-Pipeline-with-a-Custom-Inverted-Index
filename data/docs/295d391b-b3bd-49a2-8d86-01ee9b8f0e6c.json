@@ -1,0 +1,1 @@
+{"timestamp": "2026-05-10T12:07:34.962563+00:00", "log_type": "syslog", "level": "INFO", "service": "cron", "message": "Accepted publickey for root", "raw": "<34>1 2026-05-10T12:07:34.962563+00:00 web-01 cron - - - Accepted publickey for root", "id": "295d391b-b3bd-49a2-8d86-01ee9b8f0e6c", "indexed_at": "2026-05-10T12:08:35.848257+00:00"}

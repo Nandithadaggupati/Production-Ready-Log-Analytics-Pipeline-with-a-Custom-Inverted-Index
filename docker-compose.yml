@@ -1,0 +1,74 @@
+version: "3.8"
+
+services:
+  ingestor:
+    build: ./ingestor
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    environment:
+      - PORT=8000
+    networks:
+      - lognet
+
+  log-generator:
+    build: ./log-generator
+    depends_on:
+      ingestor:
+        condition: service_healthy
+    environment:
+      - INGESTOR_URL=http://ingestor:8000/logs
+      - HIGH_THROUGHPUT=${HIGH_THROUGHPUT:-false}
+      - LOG_COUNT_TARGET=${LOG_COUNT_TARGET:-1000000}
+    networks:
+      - lognet
+
+  indexer:
+    build: ./indexer
+    depends_on:
+      ingestor:
+        condition: service_healthy
+    volumes:
+      - ./data/docs:/app/data/docs
+      - ./data/index:/app/data/index
+    environment:
+      - INGESTOR_URL=http://ingestor:8000/logs/batch
+      - DATA_DIR=/app/data
+    healthcheck:
+      test: ["CMD", "ps", "aux"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    networks:
+      - lognet
+
+  querier:
+    build: ./querier
+    volumes:
+      - ./data/docs:/app/data/docs:ro
+      - ./data/index:/app/data/index:ro
+    environment:
+      - DATA_DIR=/app/data
+    networks:
+      - lognet
+
+  scheduler:
+    build: ./scheduler
+    depends_on:
+      - indexer
+    volumes:
+      - ./data/docs:/app/data/docs:ro
+      - ./reports:/app/reports
+    environment:
+      - DATA_DIR=/app/data
+      - REPORTS_DIR=/app/reports
+    networks:
+      - lognet
+
+networks:
+  lognet:
+    driver: bridge

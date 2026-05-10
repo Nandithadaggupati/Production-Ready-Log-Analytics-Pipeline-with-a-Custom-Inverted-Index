@@ -1,0 +1,1 @@
+{"timestamp": "2026-05-10T12:10:02+00:00", "log_type": "nginx", "level": "ERROR", "service": "nginx", "message": "GET /login HTTP 404", "raw": "127.0.0.1 - - [10/May/2026:12:10:02 +0000] \"GET /login HTTP/1.1\" 404 1789 \"-\" \"Mozilla/5.0\"", "id": "40d536ce-cada-4c52-9e3b-3915c3ecf264", "indexed_at": "2026-05-10T12:11:08.185029+00:00"}

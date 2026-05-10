@@ -1,0 +1,1 @@
+{"timestamp": "2026-05-10T12:10:13.023843+00:00", "log_type": "syslog", "level": "ERROR", "service": "cron", "message": "Out of memory: Killed process 123", "raw": "<34>1 2026-05-10T12:10:13.023843+00:00 cache-01 cron - - - Out of memory: Killed process 123", "id": "f885b8b7-103b-4c40-8336-4b71b3c0de37", "indexed_at": "2026-05-10T12:11:22.926775+00:00"}

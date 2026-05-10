@@ -1,0 +1,1 @@
+{"timestamp": "2026-05-10T12:10:08+00:00", "log_type": "nginx", "level": "INFO", "service": "nginx", "message": "PUT /products HTTP 201", "raw": "127.0.0.1 - - [10/May/2026:12:10:08 +0000] \"PUT /products HTTP/1.1\" 201 3463 \"-\" \"Mozilla/5.0\"", "id": "a2ac01d5-d766-432f-9a6a-94fe7f5563ce", "indexed_at": "2026-05-10T12:10:49.263027+00:00"}
